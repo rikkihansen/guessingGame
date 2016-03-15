@@ -18,7 +18,7 @@ console.log("if&else statements/promtpts");
 
      var questionOne=prompt("Is my shoe size 7.5? (yes/no)");
 
-     if (questionOne === "yes") {
+     if (questionOne.toLowerCase() === "yes") {
        alert (messageTrue);
      }
      else {
@@ -27,7 +27,7 @@ console.log("if&else statements/promtpts");
 
      var questionThree=prompt("Am I 30 years old? (yes/no)");
 
-     if (questionThree === "no"){
+     if (questionThree.toLowerCase() === "no"){
        alert (messageTrue);
      }
      else {
@@ -36,9 +36,22 @@ console.log("if&else statements/promtpts");
 
      var questionTwo=prompt("Did I grow up in Eugene, Oregon? (yes/no)");
 
-     if (questionTwo === "no") {
+     if (questionTwo.toLowerCase() === "no") {
        alert (messageTrue);
      }
      else {
        alert (messageFalse);
      }
+
+     console.log("Trying for the While loop");
+
+    var questionFour=parseInt(prompt("Guess the number I am thinking of between 1-5"));
+
+    var i= 4;
+    var trueMessage="Yay! You figured it out!";
+    var falseMessage="Nope, guess again!";
+
+      while (i != questionFour) {
+        questionFour=parseInt(prompt(falseMessage));
+      }
+      alert(trueMessage);
