@@ -16,14 +16,15 @@ console.log("guessing game answers");
 
 console.log("if&else statements/promtpts");
 
-     var questionOne=prompt("Is my shoe size 7.5? (yes/no)");
+var questionOne=prompt("Is my shoe size 7.5? (yes/no)");
 
-     if (questionOne.toLowerCase() === "yes") {
-       alert (messageTrue);
-     }
-     else {
-       alert (messageFalse);
-     }
+if (questionOne === "yes") {
+  document.getElementById("OneR").innerHTML=("X");
+}
+else {
+  document.getElementById("OneW").innerHTML=("X");
+}
+
 
      var questionThree=prompt("Am I 30 years old? (yes/no)");
 
