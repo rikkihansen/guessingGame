@@ -16,31 +16,32 @@ console.log("guessing game answers");
 
 console.log("if&else statements/promtpts");
 
-     var questionOne=prompt("Is my shoe size 7.5? (yes/no)");
+    var questionOne=prompt("Is my shoe size 7.5? (yes/no)");
 
-     if (questionOne.toLowerCase() === "yes") {
-       alert (messageTrue);
-     }
-     else {
-       alert (messageFalse);
-     }
+    if (questionOne.toLowerCase() === "yes") {
+      document.getElementById("OneR").innerHTML=("X");
+    }
+    else {
+      document.getElementById("OneW").innerHTML=("X");
+    }
+
 
      var questionThree=prompt("Am I 30 years old? (yes/no)");
 
      if (questionThree.toLowerCase() === "no"){
-       alert (messageTrue);
+       document.getElementById("TwoW").innerHTML=("X");
      }
      else {
-       alert (messageFalse);
+       document.getElementById("TwoR").innerHTML=("X");
      }
 
      var questionTwo=prompt("Did I grow up in Eugene, Oregon? (yes/no)");
 
      if (questionTwo.toLowerCase() === "no") {
-       alert (messageTrue);
+       document.getElementById("ThreeW").innerHTML=("X");
      }
      else {
-       alert (messageFalse);
+       document.getElementById("ThreeR").innerHTML=("X");
      }
 
      console.log("Trying for the While loop");
