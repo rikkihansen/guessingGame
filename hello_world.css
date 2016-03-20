@@ -1,0 +1,49 @@
+body {
+  font-family: inherit, monospace, sans-serif;
+  background-color: #DCDCDC;
+}
+ul {
+  font-size: 25px;
+}
+p {
+  text-indent: 50px;
+  font-size: 20px;
+}
+th {
+  font-size: 30px;
+  color: white;
+  font-family: cursive, inherit, serif, sans-serif;
+   background-color: #303030;
+}
+td {
+  font-size: 20px;
+  font-family: serif, sans-serif;
+  background-color: #C8C8C8;
+}
+.answer-icon {
+  width: 50px;
+}
+.right {
+  color: #336600;
+  font-weight: bold;
+}
+.wrong {
+  color: #990000;
+  font-weight: bold;
+}
+.instagram {
+  width: 110px;
+}
+.facebook {
+  width: 110px;
+}
+.centered {
+  text-align: center;
+}
+title {
+  font-family: monospace, serif, sans-serif;
+}
+table {
+  border: solid #303030;
+
+}

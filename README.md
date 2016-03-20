@@ -15,3 +15,10 @@ March 17, 2016 Lab3 - written by Abby
 -In Rikki's page we added a table for the answers to the questions asked on her page. The table has two columns, one for correct answers and one for wrong answers. When the question is answered, depending on whether it's done correctly, an "X" is put under the column that it belongs.
 -We didn't need to use any additional functions in Rikki's page because her code was already very simplified.
 -Here is a link to Rikki's repository. https://github.com/rikkihansen/guessingGame
+
+March 20, 2016
+ -Today I worked on my assignment alone and not with a partner. 
+ -Today I changed a lot when it came to the looks and design of my page. I changed the background color of the whole page as well as the background color in the table.
+ -I also changed my links to my social media accounts to images to add more contrast and make my page more interesting.
+ -I wanted to take off all of my <center> tags so I made a class attributes for all of the sections I wanted to be centered on my page.
+ -I also wanted to make it a little more fun so if you answer a question right you get a thumbs up in the right section and if you get the answer wrong you get a thumbs down in the wrong section.  

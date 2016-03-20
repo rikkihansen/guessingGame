@@ -1,3 +1,5 @@
+//Start of JS
+
 console.log("Welcome")
 
    var username= prompt("Hello! What is your name?");
@@ -19,29 +21,29 @@ console.log("if&else statements/promtpts");
     var questionOne=prompt("Is my shoe size 7.5? (yes/no)");
 
     if (questionOne.toLowerCase() === "yes") {
-      document.getElementById("OneR").innerHTML=("X");
+      document.getElementById("OneR").innerHTML="<img src='Thumb-up.png' class='answer-icon'>";
     }
     else {
-      document.getElementById("OneW").innerHTML=("X");
+      document.getElementById("OneW").innerHTML="<img src='thumbs.down.png' class='answer-icon'>";
     }
 
 
      var questionThree=prompt("Am I 30 years old? (yes/no)");
 
      if (questionThree.toLowerCase() === "no"){
-       document.getElementById("TwoW").innerHTML=("X");
+       document.getElementById("TwoR").innerHTML="<img src='Thumb-up.png' class='answer-icon'>";
      }
      else {
-       document.getElementById("TwoR").innerHTML=("X");
+       document.getElementById("TwoW").innerHTML="<img src='thumbs.down.png' class='answer-icon'>";
      }
 
      var questionTwo=prompt("Did I grow up in Eugene, Oregon? (yes/no)");
 
      if (questionTwo.toLowerCase() === "no") {
-       document.getElementById("ThreeW").innerHTML=("X");
+       document.getElementById("ThreeR").innerHTML="<img src='Thumb-up.png' class='answer-icon'>";
      }
      else {
-       document.getElementById("ThreeR").innerHTML=("X");
+       document.getElementById("ThreeW").innerHTML="<img src='thumbs.down.png' class='answer-icon'>";
      }
 
      console.log("Trying for the While loop");
